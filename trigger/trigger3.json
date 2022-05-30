@@ -1,0 +1,17 @@
+{
+	"name": "trigger3",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/adlscontainer1/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/1f7de803-bc25-4c83-aa31-c63f94449cab/resourceGroups/ResourceGroup1/providers/Microsoft.Storage/storageAccounts/adlspeter",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
